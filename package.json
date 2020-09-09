@@ -1,0 +1,17 @@
+{
+  "name": "feathers-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@feathersjs/express": "^4.5.8",
+    "@feathersjs/feathers": "^4.5.8",
+    "@feathersjs/socketio": "^4.5.8"
+  }
+}
