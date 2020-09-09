@@ -40,7 +40,10 @@ app.on('connection', connection =>
   app.channel('everybody').join(connection)
 );
 
-app.listen(3030).on('listening', () =>
+
+port = process.env.PORT || app.get('port');
+
+app.listen(port).on('listening', () =>
   console.log('Feathers server listening on localhost:3030')
 );
 
